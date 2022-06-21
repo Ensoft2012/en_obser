@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<configurations>
+	<applications>
+		<application>
+			<name>KF_DES_OBSERVER</name>
+			<execute_list>
+				<execute>
+					<name>KF_DES_FDC</name>
+					<path>C:\ensoft\bin\kf-des-fdc.exe</path>
+					<arguments>-c H01</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_CAPTURE1</name>
+					<path>C:\ensoft\bin\kf-des-capture.exe</path>
+					<arguments>100.100.100.101 9760 1</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_CAPTURE2</name>
+					<path>C:\ensoft\bin\kf-des-capture.exe</path>
+					<arguments>100.100.100.102 9760 2</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_OCR1</name>
+					<path>C:\ensoft\bin\kf-des-ocr.exe</path>
+					<arguments>1</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_OCR2</name>
+					<path>C:\ensoft\bin\kf-des-ocr.exe</path>
+					<arguments>2</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_VIEWER1</name>
+					<path>C:\ensoft\bin\kf-des-viewer.exe</path>
+					<arguments>1</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_VIEWER2</name>
+					<path>C:\ensoft\bin\kf-des-viewer.exe</path>
+					<arguments>2</arguments>
+				</execute>
+				<execute>
+					<name>KF_DES_PLC</name>
+					<path>C:\ensoft\bin\kf-des-plc.exe</path>
+					<argv>COM2</argv>
+				</execute>
+				<execute>
+					<name>KF_DES_KEYBOARD</name>
+					<path>C:\ensoft\bin\kf-des-keyboard.exe</path>
+					<arguments>COM1</arguments>
+				</execute>
+			</execute_list>
+		</application>
+	</applications>
+</configurations>
